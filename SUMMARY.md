@@ -1,3 +1,4 @@
 # Table of contents
 
-* [Foreword](README.md)
+* [Python Basics](README.md)
+* [English](english.md)
