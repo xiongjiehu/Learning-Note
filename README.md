@@ -186,6 +186,15 @@ def divide(x, y):
 divide(10, 2)  # 正常情况，输出结果: 5.0
 divide(10, 0)  # 除以零，触发 ZeroDivisionError，输出除数不能为零
 divide(10, 'a')  # 类型错误，触发 TypeError，输出类型错误
+
+help(random)
+>>> help(random)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'random' is not defined
+import random
+help(random)
+
 ```
 
 9.Script with Style
@@ -230,6 +239,8 @@ if __name__ == "__main__":
 10.Other advices
 
 * Advice limit all lines to a maximum of 79 characters.
+
+
 
 
 
