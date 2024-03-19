@@ -69,5 +69,42 @@ if __name__ == "__main__":
 ```
 ````
 
-3\.
+3. AIagent Guess Number
+
+```python
+# -*- coding: utf-8 -*-
+"""
+author: xiongjiehu@qq.com
+date: 2024/03/18
+
+"""
+
+import random
+
+def AIagentGuessNumber():
+    """ input int X is in [0,9] """
+    MIN = 0
+    MAX = 10
+    count = 1
+    #current = (MIN + MAX) // 2
+    current = random.randrange(0,9)
+    print("Please enter the int number in [0,9]:")
+    guessNumber = int(input())
+    while current != guessNumber:
+        if current > guessNumber:
+            MAX = current
+            current = (MIN + MAX) // 2
+            count += 1
+        else:
+            MIN = current
+            current = (MIN + MAX) // 2
+            count += 1
+    
+    print(f"Guess number is {current}")
+    print(f"Guess count is {count}")
+    return 0
+
+if __name__ == "__main__":
+    AIagentGuessNumber()
+```
 
