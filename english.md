@@ -16,6 +16,8 @@ crucial 关键的 extremely important or necessary
 
 determinant 行列式 something that controls or affects what happens in a particular situation
 
+ecosystem 生态系统 all the living things in an area and the way they affect each other and the environment
+
 eigenvalue 特征值 one of the particular values of a certain parameter for which a differential equation or matrix equation has an eigenfunction.
 
 indentation 凹处 a hole or mark on the surface of something
