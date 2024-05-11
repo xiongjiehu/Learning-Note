@@ -7,3 +7,4 @@
 * [Shell Basics](shell-basics.md)
 * [Appium](appium.md)
 * [Git basic](git-basic.md)
+* [Selenium](selenium.md)
