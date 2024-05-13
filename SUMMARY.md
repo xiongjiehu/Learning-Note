@@ -8,3 +8,4 @@
 * [Appium](appium.md)
 * [Git basic](git-basic.md)
 * [Selenium](selenium.md)
+* [Requests@Beautiful Soup](requests-beautiful-soup.md)
