@@ -9,3 +9,4 @@
 * [Git basic](git-basic.md)
 * [Selenium](selenium.md)
 * [Requests@Beautiful Soup](requests-beautiful-soup.md)
+* [Linux command basics](linux-command-basics.md)
